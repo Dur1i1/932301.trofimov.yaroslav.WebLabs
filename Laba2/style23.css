@@ -1,0 +1,26 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+	justify-content: center; 
+    flex-direction: row;
+	min-width: 0;
+}
+
+.content {
+	padding:20px;
+    background-color: blue;
+	text-align: center;
+	align-self: flex-start; 
+	width:600px;
+	color: white;
+}
+
+.container {
+	flex-shrink:0;
+}

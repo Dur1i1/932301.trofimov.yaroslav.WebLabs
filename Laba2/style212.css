@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.spisok{
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+}
+
+.spisok ul {
+    background-color: bisque;
+    padding: 10px 10px 10px 40px;
+    margin: 0;
+}
+
+.text{
+    display: inline-block;
+    max-width: 69%;
+    background-color: darkgray;
+}

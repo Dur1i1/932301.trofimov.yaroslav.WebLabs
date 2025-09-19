@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    border: 1px solid forestgreen;
+    display: flex;
+	font-size: 15px;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.spisok{
+    background-color: aqua;
+    width: 25%;
+    flex: 1 1 auto;
+}
+
+.list {
+    background-color: bisque;
+    padding: 10px 10px 10px 40px;
+    margin: 0px;
+}
+
+.text{
+    background-color: darkgray;
+    flex: 1 1 auto;
+    max-width: 70%;
+}
+
+@media (max-width:600px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spisok{
+        width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .list{
+        display: flex;
+        list-style: none;
+        padding: 0px 0px 0px 50px;
+        width: 100%;
+    }
+
+    .list li{
+        margin-right: 5px;
+    }
+
+    .text{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+	justify-content: center; 
+}
+
+.content {
+	margin-top:20px;
+    padding:0px;
+    background-color: green;
+    text-align: center;
+    width:600px;
+    color: white;
+}
+
+.content2 {
+	margin-top:20px;
+    padding:20px;
+    background-color: blue;
+    text-align: center;
+    width:750px;
+    color: white;
+}
+
+.container {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}

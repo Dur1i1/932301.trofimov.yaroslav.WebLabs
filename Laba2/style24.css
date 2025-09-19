@@ -1,0 +1,26 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    padding:20px;
+    background-color: blue;
+    text-align: center;
+    width:600px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
