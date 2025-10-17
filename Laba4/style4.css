@@ -17,10 +17,14 @@ body{
     flex-direction: row;
     justify-content: center;
     flex: 1 1 auto;
+	padding-top:50px;
 }
 
 .header{
     background-color: #2e5473;
+	position: fixed;
+	width:100%;
+	height:50px;
 }
 
 .webLogo{
@@ -48,7 +52,7 @@ body{
 }
 
 .right-side-container{
-	top: 20px;
+	top: 65px;
     display: flex;
     flex-direction: column;
     position: sticky;
