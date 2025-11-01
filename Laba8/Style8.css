@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.addElementButton{
+    max-width: 8dvw;
+    padding: 3px;
+}
+
+.saveButton{
+    max-width: 5dvw;
+    padding: 3px;
+}
+
+.save{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.upButton{
+    padding: 2px 5px 2px 5px;
+}
+
+.downButton{
+    padding: 2px 5px 2px 5px;
+}
+
+.removeButton{
+    padding: 2px 5px 2px 5px;
+}
