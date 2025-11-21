@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Model Example</title>
+</head>
+<body>
+<div class="page">
+    <header>
+        <div class="headertext">
+            <a>Backend1</a>
+            <a href="/" style="margin-left: 20px;">Home</a>
+        </div>
+    </header>
+
+    <div class="center">
+        <h2 class="demonstration">PassUsingModel</h2>
+        <div class="d-top">
+            <div class="Rd-First">Rand Value First: <span class="value1">{{ first }}</span></div>
+            <div class="Rd-Second">Rand Value Second: <span class="value2">{{ second }}</span></div>
+        </div>
+
+        <div class="Examples">
+            <div class="math_name">Add: </div>
+            {{ first }} + {{ second }} = {{ calculations.add }}
+            <div class="math_name">Sub: </div>
+            {{ first }} - {{ second }} = {{ calculations.sub }}
+            <div class="math_name">Mult: </div>
+            {{ first }} * {{ second }} = {{ calculations.mult }}
+            <div class="math_name">Div: </div>
+            {{ first }} / {{ second }} = {{ calculations.div }}
+        </div>
+    </div>
+    <div class="underscore"> </div>
+    <footer><p>© 2025 - Backend1</p></footer>
+</div>
+</body>
+</html>
